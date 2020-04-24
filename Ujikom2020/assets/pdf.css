@@ -1,0 +1,41 @@
+html {
+	position: relative;
+}
+
+@page {
+    size: A4;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+.th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+
+.td {
+  padding: 15px;
+  text-align: center;
+}
+
+.tr {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}

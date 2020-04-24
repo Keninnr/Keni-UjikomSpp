@@ -1,0 +1,67 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 100px;
+}
+
+img.img_mhs {
+	width: 120px;
+	transition: 0.5s;
+	border-radius: 90%;
+
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+  }
+
+img.img_mhs:hover {
+	transform: scale(1.1);
+}
+
+img.img_stikes {
+	width: 150px;
+}
+
+section {
+	min-height: 600px;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	padding-top: 30px;
+	background-color: #343a40;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 1em;
+}
+
+.fa-file-excel {
+	color: #34A104;
+}
+
+/* Transisi */
+.dropdown-menu {
+	transition: ease-in-out;
+}
+
+a.tss {
+	transition: 1s;
+	transition-delay: 1s;
+}
+
+div.Box {
+	transition: 0.5s;
+}
+
+div.Box:hover {
+	transform: scale(1.1);
+}

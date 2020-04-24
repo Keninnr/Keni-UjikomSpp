@@ -1,0 +1,53 @@
+html {
+	position: relative;
+}
+
+.body {
+    margin-top: 350px;
+    width: 380px;
+    height: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+}
+
+.text-h1 {
+    color : #fff;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input {
+    padding: 30px;
+    margin-top: 30px;
+    border: none;
+}
+
+button {
+    padding: 10px 55px;
+    border-radius: 25px;
+    margin: auto 110px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #FF8600;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+
+.table {
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 25px;
+    color: #808080;
+
+}
+
+input::placeholder {
+    color: #808080;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
